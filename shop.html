@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/favicon_io (8)//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon_io (8)//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon_io (8)//favicon-16x16.png">
+    <link rel="manifest" href="asset/favicon_io (8)//site.webmanifest">
+    <title>FORME</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">FORME<span>.</span></a>
+
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="product.html">New Arrivals</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="shop.html" class="search-link" aria-label="Search">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="10.8" cy="10.8" r="6.8"></circle>
+                        <path d="m16 16 5 5"></path>
+                    </svg>
+                </a>
+
+                <a href="cart.html" class="bag-link">
+                    Bag <span class="bag-count">0</span>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="collection-page">
+
+        <!-- BREADCRUMB -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="#">HOME</a>
+            <span>/</span>
+            <a href="#" class="current">THE COLLECTION</a>
+        </nav>
+
+        <!-- COLLECTION INTRO -->
+        <section class="collection-intro">
+
+            <div class="intro-title">
+                <p class="eyebrow">
+                    <span class="small-square"></span>
+                    18 PIECES ARCHIVE
+                </p>
+
+                <h1>THE COLLECTION</h1>
+            </div>
+
+            <p class="intro-description">
+                Contemporary silhouettes shaped with architectural
+                ease and Lagos sensibility. Rendered in raw artisanal
+                textures and grounded earth tones.
+            </p>
+
+        </section>
+
+        <!-- CATEGORY NAVIGATION AND FILTERS -->
+        <section class="collection-controls">
+
+            <div class="category-list">
+                <button class="category active">ALL</button>
+                <button class="category">SHIRTS</button>
+                <button class="category">TROUSERS</button>
+                <button class="category">CO-ORDS</button>
+                <button class="category">OUTERWEAR</button>
+                <button class="category">ESSENTIALS</button>
+            </div>
+
+            <div class="filter-actions">
+
+                <button class="filter-btn">
+                    <i class="fa-solid fa-sliders"></i>
+                    FILTERS (2)
+                </button>
+
+                <button class="sort-btn">
+                    FEATURED
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ACTIVE FILTERS -->
+        <div class="active-filters">
+            <span>ACTIVE:</span>
+
+            <button class="filter-tag">
+                LINEN <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <button class="filter-tag">
+                UNDER &#8358;100,000
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <button class="clear-filters">CLEAR ALL</button>
+        </div>
+
+        <!-- PRODUCT GRID -->
+        <section class="product-grid">
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="asset/download (1).jfif" alt="Relaxed linen shirt">
+
+                    <span class="product-label">NEW SEASON</span>
+
+                    <button class="wishlist" aria-label="Add to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <button class="quick-add">QUICK ADD +</button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>RELAXED LINEN SHIRT</h3>
+                        <p>Natural / Linen</p>
+                    </div>
+                    <span class="product-price">&#8358;45,000</span>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="asset/Men's Wide Leg Formal Trousers _ Casual Office Pants _ Korean Style Fashion.jfif" alt="Tailored wide-leg trousers">
+
+                    <button class="wishlist" aria-label="Add to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <button class="quick-add">QUICK ADD +</button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>TAILORED TROUSERS</h3>
+                        <p>Earth / Cotton Blend</p>
+                    </div>
+                    <span class="product-price">&#8358;55,000</span>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="asset/grid 3.jfif" alt="Minimal co-ord set">
+
+                    <button class="wishlist" aria-label="Add to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <button class="quick-add">QUICK ADD +</button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>STRUCTURED CO-ORD</h3>
+                        <p>Stone / Premium Cotton</p>
+                    </div>
+                    <span class="product-price">&#8358;85,000</span>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="asset/CANVAS WORK JACKET.jfif" alt="Minimal outerwear jacket">
+
+                    <button class="wishlist" aria-label="Add to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <button class="quick-add">QUICK ADD +</button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>EVERYDAY JACKET</h3>
+                        <p>Olive / Textured Cotton</p>
+                    </div>
+                    <span class="product-price">&#8358;95,000</span>
+                </div>
+            </article>
+ 
+            <!-- Product 5 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="asset/FLUID BOXY FIT OVERSHIRT.jfif" alt="Architectural Overshirt">
+
+                    <button class="wishlist" aria-label="Add to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <button class="quick-add">QUICK ADD +</button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>ARCHITECTURAL OVERSHIRT</h3>
+                    </div>
+                    <span class="product-price">&#8358;92,000</span>
+                </div>
+            </article>
+
+            <!-- Product 6 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="asset/Linen-Blend Pleated Shorts Brown - 31.jfif" alt="Pleated Linen Short">
+
+                    <button class="wishlist" aria-label="Add to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <button class="quick-add">QUICK ADD +</button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>PLEATED LINEN SHORT</h3>
+                    </div>
+                    <span class="product-price">&#8358;54,000</span>
+                </div>
+            </article>
+
+            <!-- Product 7 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="asset/Grey milano knit Noragi jacket - Le Minor x Flâneurs.jfif" alt="Structured Kimono Jacket">
+
+                    <button class="wishlist" aria-label="Add to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <button class="quick-add">QUICK ADD +</button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>STRUCTURED KIMONO JACKET</h3>
+                    </div>
+                    <span class="product-price">&#8358;128,000</span>
+                </div>
+            </article>
+
+            <!-- Product 8 -->
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="asset/Pant-14360_Charcoal_Pinstripe-1_jpg (1080×1619).jfif" alt="Merino Silk Knit Vest">
+
+                    <button class="wishlist" aria-label="Add to wishlist">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+
+                    <button class="quick-add">QUICK ADD +</button>
+                </div>
+
+                <div class="product-info">
+                    <div>
+                        <h3>MERINO SILK KNIT VEST</h3>
+                    </div>
+                    <span class="product-price">&#8358;72,000</span>
+                </div>
+            </article>
+
+        </section>
+
+        <div class="load-more-section">
+            <p>DISPLAYING 8 OF 18 ITEMS</p>
+
+            <div class="load-more-line"></div>
+
+            <button class="load-more-btn">
+                LOAD MORE PIECES (10 REMAINING)
+            </button>
+        </div>
+
+        
+        <!-- NEW ARRIVALS  -->
+        <section class="shop-section">
+            <div class="shop-heading">
+                <div>
+                    <p class="section-label">THE LATEST EDIT</p>
+                    <h2>Men Suit</h2>
+                    <p class="section-description">
+                        Discover the latest pieces from the FORME collection.
+                    </p>
+                </div>
+                <span class="item-count">01 — 08</span>
+            </div>
+
+            <div class="shop-grid">
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/Blazer Outfits.jfif" alt="Linen overshirt">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Classic Two-piece suit</h3>
+                        <p>Natural Linen</p>
+                        <span>&#8358;92,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/men suit 1.jfif" alt="Pleated linen shorts">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Three-piece Suit</h3>
+                        <p>Earth Brown</p>
+                        <span>&#8358;54,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/men suit 3.jfif" alt="Structured jacket">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Relaxed-Fit suit</h3>
+                        <p>Ivory</p>
+                        <span>&#8358;128,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/men suit 4.jfif" alt="Knit vest">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Double-Breasted suit</h3>
+                        <p>Rust</p>
+                        <span>&#8358;72,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/men suit 5.jfif" alt="Relaxed cotton shirt">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Linen Suit</h3>
+                        <p>Off White</p>
+                        <span>&#8358;48,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/men suit 6" alt="Tailored trousers">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Classic Tuxedo</h3>
+                        <p>Charcoal</p>
+                        <span>&#8358;68,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/men suit 7.jfif" alt="Minimal co-ord set">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Pinstripe suit</h3>
+                        <p>Sand</p>
+                        <span>&#8358;85,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/men suit 8.jfif" alt="Textured knit polo">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Slim-fit suit</h3>
+                        <p>Olive</p>
+                        <span>&#8358;58,000</span>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="view-more-wrap">
+                <a href="collection.html" class="view-more-btn">VIEW ALL NEW ARRIVALS ↗</a>
+            </div>
+        </section>
+
+
+        <!-- CASUAL WEAR -->
+        <section class="shop-section">
+            <div class="shop-heading">
+                <div>
+                    <p class="section-label">MADE FOR EVERYDAY</p>
+                    <h2>Casual Wear</h2>
+                    <p class="section-description">
+                        Effortless staples for everyday expression.
+                    </p>
+                </div>
+                <span class="item-count">01 — 08</span>
+            </div>
+
+            <div class="shop-grid">
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/Zara - Basic Heavyweight T-Shirt _03 - Man - White.jfif" alt="Everyday cotton T-shirt">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Everyday Cotton Tee</h3>
+                        <p>White</p>
+                        <span>&#8358;22,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/casual 2.jfif" alt="Relaxed denim jeans">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Relaxed Denim Jeans</h3>
+                        <p>Washed Blue</p>
+                        <span>&#8358;48,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/casual 3" alt="Oversized sweatshirt">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Oversized Sweatshirt</h3>
+                        <p>Stone Grey</p>
+                        <span>&#8358;38,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/casual 4.jfif" alt="Casual linen shorts">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Casual Linen Shorts</h3>
+                        <p>Beige</p>
+                        <span>&#8358;32,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/Men's Casual wear.jfif" alt="Relaxed polo shirt">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Relaxed Polo Shirt</h3>
+                        <p>Forest Green</p>
+                        <span>&#8358;29,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/causal 7.jfif" alt="Everyday cargo trousers">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Everyday Cargo Trousers</h3>
+                        <p>Olive</p>
+                        <span>&#8358;52,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/Buy Any 2 @999.jfif" alt="Minimal graphic tee">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Minimal Graphic Tee</h3>
+                        <p>Black</p>
+                        <span>&#8358;25,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/Men’s Gray Baggy Sweatpants for Minimalist Streetwear Outfits.jfif" alt="Relaxed jogger trousers">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Relaxed Jogger Trousers</h3>
+                        <p>Charcoal</p>
+                        <span>&#8358;42,000</span>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="view-more-wrap">
+                <a href="collection.html" class="view-more-btn">EXPLORE CASUAL WEAR ↗</a>
+            </div>
+        </section>
+
+
+        <!-- WOMEN'S LUXURY WEAR -->
+        <section class="shop-section">
+            <div class="shop-heading">
+                <div>
+                    <p class="section-label">THE REFINED EDIT</p>
+                    <h2>Women's Luxury Wear</h2>
+                    <p class="section-description">
+                        Considered silhouettes and elevated statement pieces.
+                    </p>
+                </div>
+                <span class="item-count">01 — 08</span>
+            </div>
+
+            <div class="shop-grid">
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/luxury 2.jfif" alt="Elegant satin dress">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Silk Satin Dress</h3>
+                        <p>Champagne</p>
+                        <span>&#8358;145,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/High-Waisted Wool Trousers With Tailored Seams And Wide-Leg Silhouette For Elegant Styling - 24 _ Ivory White _ Pants.jfif" alt="Tailored luxury blazer">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Signature Tailored Blazer</h3>
+                        <p>Black</p>
+                        <span>&#8358;135,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/aesthetic korean white pants.jfif" alt="Luxury wide-leg trousers">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Fluid Wide-Leg Trousers</h3>
+                        <p>Espresso</p>
+                        <span>&#8358;88,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/luxury 4.jfif" alt="Luxury sculpted top">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Sculpted Evening Top</h3>
+                        <p>Ivory</p>
+                        <span>&#8358;68,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/luxury 5.jfif" alt="Luxury co-ord outfit">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Evening Co-ord Set</h3>
+                        <p>Mocha</p>
+                        <span>&#8358;158,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/luxury 6.jfif" alt="Elegant maxi skirt">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Architectural Maxi Skirt</h3>
+                        <p>Sand</p>
+                        <span>&#8358;95,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/HELMUT LANG _ Silk Scarf Draped Top.jfif" alt="Luxury draped blouse">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Draped Silk Blouse</h3>
+                        <p>Wine</p>
+                        <span>&#8358;78,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/luxury 8.jfif" alt="Luxury occasion gown">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Signature Occasion Gown</h3>
+                        <p>Midnight</p>
+                        <span>&#8358;185,000</span>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="view-more-wrap">
+                <a href="collection.html" class="view-more-btn">DISCOVER LUXURY ↗</a>
+            </div>
+        </section>
+
+
+        <!-- WOMEN'S ESSENTIALS  -->
+        <section class="shop-section">
+            <div class="shop-heading">
+                <div>
+                    <p class="section-label">THE EVERYDAY EDIT</p>
+                    <h2>Women's Essentials</h2>
+                    <p class="section-description">
+                        Everyday favourites, thoughtfully designed to last.
+                    </p>
+                </div>
+                <span class="item-count">01 — 08</span>
+            </div>
+
+            <div class="shop-grid">
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/ladys 1.jfif" alt="Essential fitted top">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Essential Fitted Top</h3>
+                        <p>White</p>
+                        <span>&#8358;18,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/casual w1.jfif" alt="Ribbed tank top">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Ribbed Tank Top</h3>
+                        <p>Black</p>
+                        <span>&#8358;16,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/everday.jfif" alt="Everyday straight-leg jeans">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Straight-Leg Jeans</h3>
+                        <p>Denim Blue</p>
+                        <span>&#8358;48,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/Women Shirts Outfits.jfif" alt="Classic button shirt">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Classic Button Shirt</h3>
+                        <p>Cream</p>
+                        <span>&#8358;42,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/Blue Satin Midi Skirt_ Effortless Vintage Charm.jfif" alt="Everyday midi skirt">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Everyday Midi Skirt</h3>
+                        <p>Chocolate</p>
+                        <span>&#8358;35,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/Butter Yellow Cardigan Outfit 💛 _ Soft Girl Aesthetic _ Casual Chic Spring Fashion.jfif" alt="Soft knit cardigan">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Soft Knit Cardigan</h3>
+                        <p>Oatmeal</p>
+                        <span>&#8358;52,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/Reiss Women's Tara Neutral Linen Tie-waist Tailored Midi Dress, 6, Grey.jfif" alt="Relaxed linen dress">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Relaxed Linen Dress</h3>
+                        <p>Natural</p>
+                        <span>&#8358;62,000</span>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-image">
+                        <img src="asset/Minimalist Tan Leather Tote Bag ✨ _ Chic Work & Everyday Shoulder Bag.jfif" alt="Minimal everyday tote">
+                        <button class="shop-wishlist" aria-label="Add to wishlist">♡</button>
+                        <button class="shop-quick-add">QUICK ADD +</button>
+                    </div>
+                    <div class="shop-info">
+                        <h3>Minimal Everyday Tote</h3>
+                        <p>Tan</p>
+                        <span>&#8358;28,000</span>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="view-more-wrap">
+                <a href="collection.html" class="view-more-btn">SHOP WOMEN'S ESSENTIALS ↗</a>
+            </div>
+        </section>
+
+        <section class="appointment-section">
+            <div class="appointment-text">
+                <p class="eyebrow">ATELIER NOTE</p>
+                <h2>Made to Order & Custom Fitting</h2>
+                <p>
+                    Our garments are produced in restricted editions to limit overproduction.
+                    Consult our Victoria Island studio for bespoke tailoring adjustments.
+                </p>
+            </div>
+
+            <button>
+                <a href="#appointment" class="appointment-btn">
+                    BOOK PRIVATE APPOINTMENT
+                </a>
+            </button>
+        </section>
+
+    </main>
+
+    <footer class="forme-footer">
+
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h2>FORME</h2>
+
+                <p class="brand-description">
+                    Contemporary silhouettes crafted between Lagos and
+                    international cultural hubs. Built upon intentional
+                    proportion and enduring materiality.
+                </p>
+
+                <div class="dispatch">
+                    <h4>DISPATCH HUB</h4>
+                    <p>Victoria Island, Lagos, Nigeria — Global Express</p>
+                </div>
+            </div>
+
+            <!-- Index Links -->
+            <div class="footer-links">
+                <h4>INDEX</h4>
+
+                <ul>
+                    <li><a href="index.html">COLLECTION</a></li>
+                    <li><a href="our-story.html">OUR STORY</a></li>
+                    <li><a href="careers.html">CAREERS</a></li>
+                    <li><a href="shipping.html">SHIPPING & RETURNS</a></li>
+                    <li><a href="terms.html">TERMS</a></li>
+                    <li>
+                        <a href="https://www.instagram.com/">INSTAGRAM</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-newsletter">
+                <h4>THE GAZETTE</h4>
+
+                <p class="newsletter-description">
+                    Private invitations to Lagos studio openings
+                    and restricted access to new collections.
+                </p>
+
+                <form class="newsletter-form">
+                    <input
+                        type="email"
+                        placeholder="Email address"
+                        aria-label="Email address"
+                        required
+                    >
+
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>
+                © 2026 FORME. CLOTHING LTD. LAGOS, NIGERIA.
+                ALL RIGHTS RESERVED.
+            </p>
+
+            <p class="currency">&#8358; NGN (LAGOS)</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
